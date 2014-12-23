@@ -1,0 +1,72 @@
+p{
+		color: #FFF;/*#ffc917;*/
+		font-size: 20px;
+		background-color: rgba(18, 18, 18, 0.89);
+		margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+body{
+		background-color: #d7d7d7;
+}
+div.main_frame{
+		/*background-image: url('http://localhost/~igorp/A_site/_res/img/bkg.png');*/
+		background-image-position: center;
+		background-repeat: no-repeat;
+		position: absolute;
+		left: 200px;
+		top: 58px;
+		width: 80%;
+		height: 100%;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		padding-left: 10px; 
+}
+div.main_frame p{
+	width: 75%;
+	text-align: justify;
+	padding: 10px;
+}
+
+div.bar p{
+	background-color: transparent;
+}
+div.main_frame a{
+	text-decoration: none;
+	color: #c7a52c;
+	font-size: 20px;
+	background-color: transparent;
+}
+div.main_frame a:hover{
+	color: #ffc917;
+	text-decoration: underline;
+}
+h1{
+	font-size: 30px;
+}
+#content {
+overflow: scroll;
+}
+div.main_frame pre{
+	font-family: 'Lato', sans-serif;
+	color: #ffc917;
+	width: 88%;
+	font-size: 20px;
+	font-weight: 300;
+	background-color: rgba(18, 18, 18, 0.89);
+}
+img.bkg{
+	position: fixed;
+	z-index: -800;
+	bottom: 0;
+	left: 200px;
+	width: 60%;
+}
+img.bkg_temp{
+	position: fixed;
+	z-index: -799;
+	top: -350;
+	left: 100px;
+	width: 100%;
+}
